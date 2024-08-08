@@ -1,0 +1,21 @@
+- Java can only do PASS BY VALUE not (pass by reference)
+-  primitives order: byte, char, short,int, float, long
+
+- Function Scope: a variable declared inside a method will only be accessible to that method only
+- Block Function: No need to declare the variable every time when you are modifying it.
+- Loop Scope: anything which is initialized inside the loop cannot be used outside the loop but outside variables can be used inside.
+
+- SHADOWING: Lower level is overriding the upper level
+- varargs: it is used when programmer doesn't know how much input he should take
+           it takes input as an array
+           static void func(int ...v){
+           sout(Arrays.toString(v);
+           }
+
+- ARRAY :  int[] rno=new int[5];
+           int[] rno={20,30,40};
+
+String are immutable(CANNOT BE CHANGED)
+Arrays are mutable
+
+-We use arraylist when we don't know the no. of inputs in the Array.//similar to vectors in c++
