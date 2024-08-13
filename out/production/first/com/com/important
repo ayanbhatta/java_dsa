@@ -19,3 +19,4 @@ String are immutable(CANNOT BE CHANGED)
 Arrays are mutable
 
 -We use arraylist when we don't know the no. of inputs in the Array.//similar to vectors in c++
+-Arrays.toString(name.toCharArray())  it converts string to a array where name="ayan"
