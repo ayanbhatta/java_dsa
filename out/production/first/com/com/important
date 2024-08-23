@@ -20,3 +20,9 @@ Arrays are mutable
 
 -We use arraylist when we don't know the no. of inputs in the Array.//similar to vectors in c++
 -Arrays.toString(name.toCharArray())  it converts string to a array where name="ayan"
+
+when to apply BS
+-when array is sorted
+-sq root
+
+bruteforce is the worst time complexity.
