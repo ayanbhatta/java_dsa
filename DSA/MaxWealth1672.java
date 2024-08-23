@@ -1,4 +1,4 @@
-package com.com;
+package DSA;
 
 public class MaxWealth1672 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.com;
+package DSA;
 
 public class EvenNoDigit {
     public static void main(String[] args) {

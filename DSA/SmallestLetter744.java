@@ -1,4 +1,4 @@
-package com.com;
+package DSA;
 
 public class SmallestLetter744 {
     public static void main(String[] args) {

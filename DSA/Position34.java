@@ -1,4 +1,4 @@
-package com.com;
+package DSA;
 
 import java.util.Arrays;
 
