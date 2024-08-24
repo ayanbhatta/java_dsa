@@ -3,6 +3,22 @@ package DSA;
 public class InfiniteArr {
     public static void main(String[] args) {
         //start with box size 2
+        int[] arr = {3,5,7,9,10,90,100,130,140,160,170};
+        int target = 10;
+        System.out.println(ans(arr,target));
+    }
+    static int ans(int[] arr,int target){
+        //start with box of size 2
+        int start=0;
+        int end = 1;
+        //condition for target to lie on range
+        while(target > arr[end]){
+            int temp=end+1;
+            //end=previous end + size of box*2
+            end=end+ (end - start+1)*2;
+            start=temp;
+        }
+        return binarySearch(arr,target,start,end);
     }
     static int binarySearch(int[] arr,int target,int start,int end){
 
@@ -15,7 +31,7 @@ public class InfiniteArr {
                 start=mid+1;
             }
             else if(target==arr[mid]){
-                return target;
+                return mid;
             }
         }return -1;
     }
