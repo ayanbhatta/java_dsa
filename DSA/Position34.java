@@ -9,21 +9,6 @@ public class Position34 {
         int[] ans=position(arr,target);
         System.out.println(Arrays.toString(ans));
     }
-//    static int[] position1(int[] arr,int target){
-//        int start=-1;
-//        int end=-1;
-//        for (int i = 0; i < arr.length; i++) {
-//            if(arr[i]==target){
-//                start=arr[i];
-//                break;}
-//        }
-//        for (int j = arr.length-1; j >0 ; j--) {
-//
-//            if(arr[j]==target){
-//                end=arr[j];
-//                break;}
-//        }return new int[]{start,end};
-//    }
     static int[] position(int[] arr,int target){
         int[] ans={-1,-1};
         int start=search(arr,target,true);
